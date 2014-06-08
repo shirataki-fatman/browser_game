@@ -4,5 +4,12 @@
   "ref": "master",
   "path": "app/ts/lib",
   "bundle": "typings/tsd.d.ts",
-  "installed": {}
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "d2989ce35fcf03ace1df9dda33a9a3b68c416b08"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "d2989ce35fcf03ace1df9dda33a9a3b68c416b08"
+    }
+  }
 }
