@@ -1,5 +1,6 @@
 public/js/*
 app/js/*
+app/ts/lib/*
 
 ### Node ###
 # Logs
