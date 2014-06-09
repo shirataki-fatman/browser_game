@@ -11,9 +11,9 @@ var PATHS = {
 		"./app/ts/*.ts"
 	],
 	"js_app": [
-		//"./app/js/service/*.js",
-		//"./app/js/directive/*.js",
-		//"./app/js/filter/*.js",
+		"./app/js/service/*.js",
+		"./app/js/directive/*.js",
+		"./app/js/filter/*.js",
 		"./app/js/app.js"
 	],
 	"js_lib": [
@@ -52,6 +52,7 @@ gulp.task("server", function() {
 gulp.task("reload", function() {
 	gulp.src("./public/js/*.js")
 		.pipe(connect.reload());
-})
+});
 
+gulp.task("setup", ["compile", "concat"]);
 gulp.task("default", ["compile", "concat", "watch", "server"]);
